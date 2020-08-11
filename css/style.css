@@ -1,0 +1,361 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+  
+}
+
+.clearfix:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+  
+}
+
+strong {
+  font-weight: 600;
+}
+
+section.h3{
+
+  color: blue;
+}
+
+
+/*
+ * Header and .hero Styles
+*/
+
+header {
+  background: #FFF;
+}
+
+header .logo {
+  border-right: 1px solid #DCE0E0;
+}
+
+.hero img {
+  width: 100%;
+}
+.owner-details h2{
+  margin-top: 2px;
+}
+/*info*/
+.info{
+  background-color: rgb(255, 255, 255);
+  /*height: 200px;*/
+  text-align: center;
+  padding: 25px;
+}
+
+.info .owner-details img{
+  margin-top: 3.125rem;
+  border-radius: 50%;
+}
+
+.info h2.relationship, .info h2.name{
+  color: #909597;
+  font-family: 'OpenSans';
+  font-size: 0.875rem;
+}
+
+.info h2.name{
+  font-weight: bold;
+}
+
+.pet-details h1{
+  font-family: 'OpenSans';
+  font-size: 1.375rem;
+  color: #666a6c;
+  margin-top: 2px;
+}
+
+.info .icons {
+  float: left;
+   width: 33.3%;/* three containers (use 25% for four, and 50% for two, etc) */
+  
+}
+
+.info .icons1 {
+  margin-left: px;
+   margin-top: 20px;  
+}
+
+.info .icons2 {
+  margin-top: -50.5px;
+  margin-left: 200px;
+  
+  
+}
+
+.info .icons3{
+  margin-top: -65px;
+  margin-left: 330px;
+}
+
+.info .icon img {
+  height: 30px;
+  margin-bottom: 3px;
+ }
+ 
+ .info .booking h2 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  margin-bottom: 13px;
+ }
+ 
+ .info h2.price time {
+  font-size: 1rem;
+ }
+ /*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.booking {
+  margin-top: 50px;
+  
+}
+
+
+/*information*/
+.detail {
+  border-top: 1px solid #DCE0E0;
+  color: #565a5c;
+}
+
+.about h3 {
+  font-family: 'OpenSans';
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+ .about p {
+ 
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 22px;
+  text-align: center;
+}
+
+.contact-owner p {
+  
+  margin-top: 36px;
+  border-bottom:1px solid #DCE0E0;  
+  font-size: 1.5rem;
+ 
+}
+
+
+
+@media only screen and (min-width: 1060px) {
+ 
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+    background: blue;
+  }
+
+  .column {
+    float: left;
+  }
+
+  .info {
+    padding: 25px;
+    background: white;
+    height: 200px;
+  }
+
+  .info .profile {
+    width: 660px;
+    margin-top: -40px;
+    margin-left: 300px;
+    border-right: 1px solid #DCE0E0;
+    
+  }
+
+  .info .booking {
+    width: 380px;
+  }
+
+  .info .owner-details {
+    width: 20%;
+  }
+
+  .info .pet-details {
+    width: 80%;
+    margin-top: -130px;
+    margin-left: 50px;
+    
+  }
+
+  .info .pet-details p {
+    margin-top: 10px;
+  }
+
+  .info .icons {
+    margin-left: 50px;
+  }
+
+  .booking h2 {
+    margin-top: -30px;
+
+  }
+
+  .detail {
+    float: left;
+    border-bottom: 1px solid #DCE0E0;
+  }
+  
+   
+  }
+   .about h3 {
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 1rem;
+    color: #565a5c;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+  }
+
+  
+ .about p {
+  
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 22px;
+  width: 655px;
+  margin-left: 450px;
+  float: right;
+}
+
+
+.contact-owner p {
+    
+  margin-top: 36px;
+  border-bottom:1px solid #DCE0E0;  
+  font-size: 1.5rem;
+}
+
+.care {
+
+  margin-left: 310px;
+  width: 655px;
+  float: right;
+  border-bottom:1px solid #DCE0E0;
+}
+
+.care .maya {
+  margin-top: 28px;
+  width: 170px;
+  float: left;
+}
+
+.care .food {
+  margin-top: -15px;
+  width: 260px;
+  float: right;
+  margin-right: 300px;
+}
+
+.care .time{
+  margin-top: -28px;
+  width: 255px;
+  float: right;
+}
+
+.games {
+  border-top:1px solid #DCE0E0;
+  margin-top: 200px;
+  border-bottom: 1px solid #DCE0E0;
+
+}
+
+ .gu {
+  margin-top: 28px;
+  width: 170px;
+  margin-bottom: 200px;
+  float: left;
+}
+
+.games .frisbee {
+ 
+  margin-top: 28px;
+  margin-left: -200px;
+}
+
+.games .swimming {
+  
+  margin-top: 28px;
+  margin-left: -200px;
+
+}
+
+.games .fetch {
+  margin-top: 28px;
+  margin-left: -200px;
+
+}
+
+.photos {
+    margin-top: 28px;
+    display: flex;
+    margin-bottom: 80px;
+    
+   
+  }
+  
+ .photos .column1 {
+
+    margin-right: 27px;
+   
+  }
+
+  .photos .column2 {
+     
+      margin-right: 27px;
+      margin-left: 27px;
+    }
+
+ .photos .column3 {
+      
+       margin-right: 27px;
+       margin-left: 27px;
+      }
+    
+
